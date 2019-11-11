@@ -1,0 +1,38 @@
+html {
+	background: #0F1626;
+	font-type: 
+}
+
+.column {
+	position: relative;
+	left: 25vw;
+	top: 10vh;
+	width: 50vw;
+}
+
+button {
+	color: #30415D;
+	border: solid;
+	border-width: 10px;
+	border-radius: 100px;
+	border-color: #F5F5F5;
+	margin-top:5vh;
+	width:50vw;
+	height:20vh;
+	font-size: 10vw;
+	background: gold;
+}
+
+#lock {
+	background: #30415D;
+	color: gold;
+	border-color: gold;
+}
+
+.square {
+	position: absolute;
+	top: 10vh;
+	width: 100vw;
+	height: 55vh;
+	background: #AB987A;
+}
