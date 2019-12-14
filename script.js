@@ -9,6 +9,7 @@ $(document).ready(function(){
 			document.getElementById("login").hidden = false; //show login
 			document.getElementById("username").hidden = false;
 			document.getElementById("password").hidden = false;
+			document.getElementById("rfid").hidden = false;
 		}
 		if (data == 1) { //has access
 			document.getElementById("login").hidden = true; //hide lock/unlock
