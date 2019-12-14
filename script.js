@@ -40,7 +40,7 @@ function login() {
 	var password = document.getElementById("password").value;
 	document.getElementById("username").style.border = "2px solid black";
 	document.getElementById("password").style.border = "2px solid black";
-	
+
 	$.post('login.php', {user : username, pass : password}, function(data) { // Send user pass to check with database
 		if (data == 1) { // The user pass is correct
 			document.getElementById("login").hidden = true;
@@ -52,7 +52,13 @@ function login() {
 			document.getElementById("username").style.border = "2px solid #f44336"; //Add red border
 			document.getElementById("password").style.border = "2px solid #f44336";
 		}
-	});	
+	});
+}
+
+function rfid() {
+	load(); // show loading animation
+	$.get('rfid.php', function(data) { //send a request to lock.php
+	});
 }
 
 function statusupdate() { // When we move to lock/ unlock interface
