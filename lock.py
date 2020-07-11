@@ -2,7 +2,6 @@ import RPi.GPIO as GPIO
 import time
 
 
-user = "shoham"
 
 #pin = 8 #Board
 pin = 14 #BCM
