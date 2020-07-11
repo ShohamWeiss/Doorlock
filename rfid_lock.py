@@ -1,7 +1,6 @@
 import RPi.GPIO as GPIO
 import time
 
-#user = "shoham"
 #
 ##~ pin = 12 #Board
 #pin = 14 #BCM
@@ -12,7 +11,6 @@ import time
 #pwm=GPIO.PWM(pin,50)
 #pwm.start(0)
 #
-user = "shoham"
 
 pin = 8 #Board
 #pin = 14 #BCM
